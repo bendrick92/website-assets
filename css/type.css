@@ -44,13 +44,13 @@ h4 {
 h5 {
     font-size: 20px;
 }
-p {
-
+p.subheading {
+    font-size: .8em;
+    text-transform: uppercase;
 }
-    p.subheading {
-        font-size: .8em;
-        text-transform: uppercase;
-    }
+blockquote p {
+    font-style: italic;
+}
 code {
     word-wrap: break-word;
 }
