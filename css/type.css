@@ -53,6 +53,7 @@ blockquote p {
 }
 code {
     word-wrap: break-word;
+    line-height: 1.25em;
 }
 
 .social-icon a {
@@ -61,4 +62,10 @@ code {
 }
 .align-center {
     text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
 }

@@ -8,14 +8,24 @@ h4, h5, h6 {
     color: #3A4145;
 }
 code {
+    color: #5E5E5E;
     border-color: #E3EDF3;
     background-color: #F7FAFB;
+}
+blockquote {
+    border-color: #5E5E5E;
+}
+hr {
+    color: #5E5E5E;
 }
 .percentage-key {
     border-color: #5E5E5E;
 }
 .hamburger > span {
     background-color: #ffffff;
+}
+.post-wrapper:nth-child(even) {
+    background-color: #F5F5F5;
 }
 
 /* Colors */
