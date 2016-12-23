@@ -36,21 +36,21 @@ html, body {
     height: 100%;    
 }
 body {
-    display: flex;
     display: -ms-flexbox;
     display: -moz-box;
     display: -webkit-box;
-    display: -webkit-flex;  
-    flex-direction: column;
+    display: -webkit-flex; 
+    display: flex; 
     -ms-flex-direction: column;
     -webkit-flex-direction: column;    
+    flex-direction: column;
 }
     header, footer {
-        flex: 1 0 auto;
         -ms-flex: 1 0 auto;
         -moz-box-flex: 1 0 auto;
         -webkit-box-flex: 1 0 auto;
         -webkit-flex: 1 0 auto;
+        flex: 1 0 auto;
     }
 		header .container {
 			padding-top: 0;
@@ -89,11 +89,11 @@ body {
 						color: inherit;
 					}
     main {
-        flex: 1 0 auto;
         -ms-flex: 1 0 auto;
         -moz-box-flex: 1 0 auto;
         -webkit-box-flex: 1 0 auto;
         -webkit-flex: 1 0 auto;
+        flex: 1 0 auto;
     }
         main .item {
             margin-bottom: 1rem;
@@ -144,27 +144,27 @@ body {
     padding: 2rem 0;
     margin: 0 auto;
 	position: relative;
-    display: flex;
     display: -ms-flexbox;
     display: -moz-box;
     display: -webkit-box;
     display: -webkit-flex;
-    flex-direction: row;
+    display: flex;
     -ms-flex-direction: row;
-    -webkit-flex-direction: row;    
-    flex-wrap: wrap;        
+    -webkit-flex-direction: row;  
+    flex-direction: row;  
     -ms-flex-wrap: wrap;
     -webkit-flex-wrap: wrap;    
-    justify-content: flex-start;    
-    -webkit-justify-content: flex-start;    
+    flex-wrap: wrap;        
+    -webkit-justify-content: flex-start;   
+    justify-content: flex-start;     
 }
     .item {
         padding: 0 1rem;
-        flex: 1 0 auto;
         -ms-flex: 1 0 auto;
         -moz-box-flex: 1 0 auto;
         -webkit-box-flex: 1 0 auto;
         -webkit-flex: 1 0 auto;
+        flex: 1 0 auto;
         position: relative;
         box-sizing: border-box;
     }
@@ -214,10 +214,10 @@ body {
     position: absolute;
     top: 50%;
     right: 2.1rem;
-    flex: none;
     -ms-flex: none;
     -webkit-box-flex: none;
     -webkit-flex: none;
+    flex: none;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -273,17 +273,17 @@ body {
     border-right: 1px solid;
     border-bottom: 1px solid;    
     border-left: 1px solid;
-    display: flex;
     display: -ms-flexbox;
     display: -moz-box;
     display: -webkit-box;
     display: -webkit-flex;
-    flex-direction: row;
+    display: flex;
     -ms-flex-direction: row;
-    -webkit-flex-direction: row;    
-    flex-wrap: wrap;        
+    -webkit-flex-direction: row;
+    flex-direction: row;    
     -ms-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;         
 }
     .percentage-key > * {
         -webkit-flex: 1 1 auto;
